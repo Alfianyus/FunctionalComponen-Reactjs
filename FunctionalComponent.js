@@ -1,6 +1,6 @@
  import React, {useState}  from "react";
 
-const FComp=()=>{
+const FunctionalComponent=()=>{
     const[name, stateName] = useState("alfi");
 
 
@@ -18,4 +18,4 @@ const FComp=()=>{
     );
 }
 
-export default FComp;
+export default FunctionalComponent;
